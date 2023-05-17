@@ -28,7 +28,8 @@
     "socket.io-adapter": "^2.5.2"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install "
   },
   "eslintConfig": {
